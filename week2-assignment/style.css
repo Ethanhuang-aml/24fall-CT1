@@ -96,7 +96,7 @@ section{
 /* DESKTOP VIEW */
 @media(min-width:1024px){
     header nav ul{
-        justify-content: flex-end;
+        1t: flex-end;
         background-color: blue;
     }
     header nav li{
