@@ -10,11 +10,11 @@ img{
 /* NAVIGATION BAR */
 header nav ul{
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 200px;;
+    padding: 200px;;
     display:flex;
     flex-direction: column;
-    background-color: rgb(245,180,180);
+    background-color: rgb(1, 217, 255);
 }
 
 header nav li{
@@ -32,7 +32,7 @@ header nav li:last-child{
 
 header nav a {
     text-decoration: none;
-    color:#ffffff;
+    color:#e90000;
 
 }
 
@@ -49,7 +49,7 @@ section{
 }
 
 #Contact{
-    background-color: lightslategray;
+    background-color: rgb(0, 83, 165);
 }
 /* TABLET VIEW  */
 @media(min-width:768px){
