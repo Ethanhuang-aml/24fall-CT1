@@ -10,8 +10,8 @@ img{
 /* NAVIGATION BAR */
 header nav ul{
     list-style: none;
-    margin:0;
-    padding:0;
+    margin: 0px;
+    padding:0px;
     display:flex;
     flex-direction: column;
     background-color: rgb(245,180,180);
@@ -22,7 +22,7 @@ header nav li{
 
     font-size:15px;
     text-decoration: none;   
-    border-bottom: 2px solid #212121;
+    border-bottom: 2px solid #f80000;
 }
 
 
@@ -49,16 +49,47 @@ section{
 }
 
 #Contact{
-    background-color: lightslategray;
+    background-color: rgb(35, 106, 177);
 }
 /* TABLET VIEW  */
 @media(min-width:768px){
     header nav ul{
         flex-direction: row;
         justify-content: space-evenly;
+        background-color: rgb(95, 255, 20);
     }
     header nav li{
-        border:none ;
+        border:none;
+        font-size:30px;
+        padding: 30px;
+    }
+    header nav a {
+        text-decoration: none;
+        color:#000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #Home{
+        background-color: rgb(46, 255, 234);
+    }
+    #About{
+        background-color: rgb(142, 54, 54);
+    }
+    #Contact{
+        background-color: rgb(209, 255, 83);
+    }
+    main {
+        display: flex;
+        flex-direction: column; 
+    } 
+    #Home {
+        order: 2;
+    }
+    
+    #About {
+        order: 3;
+    }
+    #Contact {
+        order: 1; 
     }
 }
 
@@ -68,9 +99,41 @@ section{
         justify-content: flex-end;
         background-color: blue;
     }
-
+    header nav li{
+        border:none;
+        font-size:50px;
+        padding: 50px;
+    }
+    header nav a {
+        text-decoration: none;
+        color:#c300ff;
+        font-family: 'Courier New', Courier, monospace;
+    }
     main{
         width:1024px;
         margin:0 auto;
+    }
+    #Home{
+        background-color: rgb(201, 191, 0);
+    }
+    #About{
+        background-color: rgb(255, 42, 227);
+    }
+    #Contact{
+        background-color: rgb(32, 255, 244);
+    }
+    main {
+        display: flex;
+        flex-direction: column; 
+    } 
+    #Home {
+        order: 3;
+    }
+    
+    #About {
+        order: 1;
+    }
+    #Contact {
+        order: 2; 
     }
 }
