@@ -6,7 +6,7 @@ let timerID
 let bkgndClr
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  createCanvas(600,600);
   colorMode(HSB, TWO_PI, 1, 1)
   
   radius = width*0.1
