@@ -154,8 +154,8 @@ function gotHands(results) {
 }
 
 function resetBall() {
-  ballx = height / 2;
-  bally = width / 2;
+  ballx = width / 2;
+  bally = height / 2;
   ballspeedx = random(1) < 0.5 ? random(5, 10) : random(-10, -5);
   ballspeedy = random(1) < 0.5 ? random(5, 10) : random(-10, -5);
 }
