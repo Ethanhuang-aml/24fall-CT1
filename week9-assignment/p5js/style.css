@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#textAboveCanvas {
+  text-align: center;     /* 水平居中对齐 */
+  font-size: 24px;        /* 字体大小 */
+  margin-bottom: 10px;    /* 与 canvas 之间的间距 */
+}
