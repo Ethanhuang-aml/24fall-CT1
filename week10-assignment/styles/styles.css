@@ -43,5 +43,19 @@ main {
   text-align: center;
   flex-direction: column;
   margin-bottom: 85px;
-}
   
+}
+img {
+  width: 50%; /* 图片宽度设置为屏幕宽度 */
+  height: auto; /* 根据宽度自动调整高度，保持比例 */
+  max-width: 100%; /* 防止图片变得比其原始大小更大 */
+  display: block; /* 避免图片默认的内联间距 */
+  margin: 0 auto; /* 居中对齐图片 */
+}
+
+img[src$=".gif"] {
+  width: 100%; /* 或者指定固定的宽度，例如 500px */
+  height: auto; /* 保持比例 */
+  display: block; /* 避免内联元素的间距问题 */
+  margin: 0 auto; /* 居中对齐 */
+}
